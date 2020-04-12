@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!Help.txt
+!.gitignore
+# etc...
+
+# ...even if they are in subdirectories
+#!*/
