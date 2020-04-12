@@ -1,0 +1,105 @@
+
+Make .gitignore ignore everything except a few files //https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!script.pl
+!template.latex
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+!*/a/b/file1.txt
+!*/a/b/c/*
+
+git rebase -i HEAD~3
+//https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+
+c:\github\small-app>git rebase -i develop
+/mingw64/libexec/git-core/git-legacy-rebase--interactive: line 94: C:\Program Files\Notepad++\notepad++.exe: No such file or directory
+Could not execute editor
+c:\github\small-app>git config --global core.editor "C:\\Windows\\notepad.exe"
+
+
+mvn dependency:sources -DincludeGroupIds=com.example.api.agents -DincludeArtifactIds=api-agent-spark           https://stackoverflow.com/questions/27971430/how-to-download-sources-for-an-specific-jar-dependency-of-a-maven-project
+
+To minimize current window - hold Windows Key and press down arrow key. To maximize the same window (if you did not move on to any other window) - hold Windows Key and press up arrow key. Another way is to invoke the control box menu by pressing Alt+Space Bar and then press “n” for minimize or “x” for maximize.
+
+阿里云
+安装了Selenium 等 https://gist.github.com/xiaol825/625b94f97c0580c0586ded2b8f0d76e2
+安装了 python3 https://www.jianshu.com/p/32240452e42b
+ google-chrome-stable --headless --disable-gpu --no-sandbox --screenshot https://www.baidu.com
+
+lsb_release
+
+
+How to add multiple time zone clocks to Windows 10 https://www.windowscentral.com/how-set-multiple-time-zone-clocks-windows-10
+Open Settings.
+Click on Time & language.
+Click the Add clocks for different time zones link.
+
+@mike.daugherty @liam.kelly @shawn.lassiter @maleka.sehori @ext.mary.beihl 
+
+查看Wifi密码
+netsh wlan show profiles
+netsh wlan show profile name=xinyuan159 key=clear
+
+KIBANA 
+top bar menu -> Open -> Choose emitter
+equals
+{  "query": {
+    "match": {
+      "emitter": {
+        "query": "com.adjuster.logs.adjusterapilog",
+        "type": "phrase"      }    } }}
+
+mongoexport -d dbname -c collection --jsonArray --pretty --quiet --out output.json      https://stackoverflow.com/questions/47446775/mongodb-find-output-to-file
+mongoexport -d 240 -c flow_active_lines --jsonArray --pretty --quiet --out output.json
+mongoimport --db=240 --collection=flow_active_lines --file=output.json
+mongoimport -d=240 -c=flow_active_lines --jsonArray --mode=upsert --file=output.json      https://stackoverflow.com/questions/30380751/importing-json-from-file-into-mongodb-using-mongoimport   https://docs.mongodb.com/manual/reference/program/mongoimport/
+mongoimport -d 240 -c flow_active_lines --jsonArray --mode upsert --file output.json 
+mongoimport -d dbname -c collection --jsonArray --mode upsert --file output.json 
+
+Linux后台运行命令nohub输出pid到文件（转）  https://www.cnblogs.com/EasonJim/p/7750298.html
+
+How to check which application is using which port	https://veerasundar.com/blog/2009/10/how-to-check-which-application-is-using-which-port/
+netstat -aon | findstr '[port_number]'
+tasklist | findstr '[PID]'
+
+abcdefjhijklmnopqrstuvwxyz
+ABCDEFJHIJKLMNOPQRSTUVYXYZ
+
+启用/关闭 网络与发现
+控制面板\网络和 Internet\网络和共享中心\高级共享设置
+
+PDF 破解
+https://smallpdf.com/cn/unlock-pdf  解密文档
+Acrobat Reader DC 编辑文档
+
+Navicat 快捷键
+
+1.ctrl+q ??? ??? ? 打开查询窗口
+
+2.ctrl+/ ??? ??? ?? 注释sql语句
+
+3.ctrl+shift +/? 解除注释
+
+4.ctrl+r? ??? ??? ?运行查询窗口的sql语句
+
+5.ctrl+shift+r ? 只运行选中的sql语句
+
+6.F6?????????????? 打开一个mysql命令行窗口
+
+7.ctrl+l??????????? 删除一行
+
+8.ctrl+n?????????? 打开一个新的查询窗口
+9.ctrl+w????????? 关闭一个查询窗口
+10.ctrl+d???? 在查询表数据界面打开一个该表结构的窗口（我自己用的时候是复制这一行）
+
+
+shell:startup
+
