@@ -1,4 +1,17 @@
 
+#Switching remote URLs from HTTPS to SSH
+git remote set-url origin git@hostname:USERNAME/REPOSITORY.git
+
+What went wrong in your code?
+SimpleDateFormat and Date are poorly designed and long outdated, the former in particular notoriously troublesome. I recommend you don¡¯t use them in 2019.
+As others have said you need three M for month abbreviation (no matter if you are using the outdated SimpleDateFormat or the modern DateTimeFormatter). One M will match a month number in 1 or 2 digits, for example 1 for January.
+You should also specify a locale for your formatter. I took Jan to be English so specified Locale.ENGLISH. If you don¡¯t specify locale, the JVM¡¯s default locale will be used, which may work well on some JVMs and suddenly break some day when the default locale has been changed or you are trying to run your program on a different computer
+http://quabr.com/54176395/java-parseexception-unparseable-date
+
+can't connect to mysql server on 'localhost' (10038)
+ERROR 2003 (HY000): Can't connect to MySQL server on localhost (10061)
+Go to Run type services.msc. Check whether MySQL services is running or not. If not, start it manually.
+
 Make .gitignore ignore everything except a few files //https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
 # Ignore everything
 *
